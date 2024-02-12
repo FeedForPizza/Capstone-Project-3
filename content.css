@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    
+}
+#imgIndex{
+    height: 300px;
+    border-radius: 8px;
+}
+#buttonRead{
+    margin-top: 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+#headerIndex{
+    display: block;
+    color: rgb(2, 2, 75);
+}
+input{
+    width: 50ch; 
+    border-radius: 10px; 
+    padding: 8px;
+    margin: 8px;
+}
+#buttonDelete{
+    margin-top: 20px;
+    background-color: rgb(225, 14, 14);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}

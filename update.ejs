@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container">
+    <div class="text-center">
+        <div class=" p-5">
+<form action="/update" method="POST">
+    <h3>Header:</h3>
+    <input type="text"  placeholder="Header of article" id="headerInput" name="header" value="<%= header %>">
+    <h3>Content:</h3>
+    <input type="text"  placeholder="Content of article" id="contentInput" name="data" value="<%= data %>">
+    <h3>IMG URL:</h3>
+    <input type="text"  placeholder="URL" id="urlInput" name="imgJPG" value="<%= imgJPG %>">
+    <h3>Alternative text:</h3>
+    <input type="text"  placeholder="Alt text" name="altText" value="<%= altText %>">
+
+
+  
+    <!-- <input type="hidden" name="header" value="<%= header %>">
+    <input type="hidden" name="data" value="<%= data %>">
+    <input type="hidden" name="imgJPG" value="<%= imgJPG %>">
+    <input type="hidden" name="altText" value="<%= altText %>"> -->
+   
+    <button type="submit" id="buttonRead">Save</button>
+  </form>
+        </div>
+        
+    </div>
+    
+
+</div>
+
+<%- include("partials/footer.ejs") %>

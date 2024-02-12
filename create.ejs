@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+<div class="container">
+    <div class="text-center p-5">
+        <form action="/create" method="POST" id="createForm">
+    <input type="text" name="header" placeholder="Header of article" id="headerInput">
+    <input type="text" name="data" placeholder="Content of article" id="contentInput">
+    <input type="text" name="imgJPG" placeholder="URL" id="urlInput">
+    <input type="text" name="altText" placeholder="Alt text">
+    <input type="submit" value="Create article" id="buttonRead">
+</form>
+    </div>
+    
+</div>
+
+
+<%- include("partials/footer.ejs") %>
